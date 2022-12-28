@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+}
+
+#main-header {
+  background-color: rgb(112, 13, 204);
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(112, 13, 204);
+  border: 1px solid rgb(112, 13, 204);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+
+  color: rgb(112, 13, 204);
+}
+.btn:hover {
+  background-color: rgb(79, 10, 190);
+  border-color: rgb(79, 10, 190);
+}
+
+.btn-alt:hover {
+  background-color: rgb(245, 232, 255);
+  border-color: transparent;
+}
+
+.edit1 {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(245, 232, 255);
+  border: 1px solid rgb(245, 232, 255);
+  color: rgb(79, 10, 190);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit1:hover {
+  background-color: rgb(215, 187, 247);
+  border-color: transparent;
+}
