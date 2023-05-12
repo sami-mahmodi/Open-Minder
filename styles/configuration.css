@@ -78,3 +78,12 @@
   color: rgb(47, 4, 82);
   margin: 0.5rem 0;
 }
+@media (max-width: 768px) {
+  #config-overlay {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 12rem;
+    left: 0;
+  }
+}

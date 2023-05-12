@@ -18,6 +18,11 @@ body {
   z-index: -1;
   -webkit-animation: sliderShape 5s linear infinite;
 }
+@media (max-width: 768px) {
+  .slider-thumb::before {
+    display: none;
+  }
+}
 ::-webkit-scrollbar {
   width: 1rem;
 }

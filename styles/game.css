@@ -30,7 +30,7 @@
 #game-board {
   list-style: none;
   margin: 1rem 0;
-  padding: 0;
+  padding: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 6rem); /*6rem 6rem 6rem*/
   grid-template-rows: repeat(3, 6rem);
@@ -43,6 +43,7 @@
   border-radius: 2px;
   cursor: pointer;
   display: flex;
+
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
@@ -56,6 +57,5 @@
 #game-board li.disabled {
   background-color: rgb(112, 13, 204);
   color: white;
-
   cursor: default;
 }
